@@ -15,17 +15,30 @@
                     <v-container grid-list-md text-xs-center>
                         <v-layout row wrap>
 
-                            <v-flex v-for="i in 6" :key="`2${i}`" xs2>
+                            <v-flex xs2>
                                 <v-card dark color="primary">
-                                        <iframe width="300" height="165" src="https://www.youtube.com/embed/cpzxK_RvX7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="300" height="130" src="https://www.youtube.com/embed/cpzxK_RvX7k"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                                 </v-card>
                             </v-flex>
 
-                            <v-flex v-for="i in 6" :key="`2${i}`" xs2>
-                                <v-card dark color="primary">
-                                    <v-card-text class="px-0">2</v-card-text>
+                            <v-flex xs2>
+                                <v-card>
+                                    <v-img src="https://cdn.vuetifyjs.com/images/cards/desert.jpg" aspect-ratio="2.75">
+                                    </v-img>
                                 </v-card>
                             </v-flex>
+
+                            <v-flex xs2>
+                                <v-card dark color="primary">
+                                    クラフトBOSS
+                                    <br>
+                                    198円
+                                </v-card>
+                            </v-flex>
+
 
                         </v-layout>
                     </v-container>
